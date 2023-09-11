@@ -6,7 +6,7 @@ Install the following dependencies:
 
 libpcap - https://github.com/the-tcpdump-group/libpcap/blob/master/INSTALL.md
 
-Clone the repository:
+Clone the repository: https://github.com/Ashutosh00Choudhary/CN_Assignment_1
 
 git clone 
 
@@ -22,8 +22,8 @@ Run .pcap file:
 
 sudo tcpreplay -i <network_interface> --mbps= <path_to_pcap_file>
 
-Disconnect from your wired ethernet connection in your VM, if possible, while replaying the packets using tcpreplay.
+If possible, disconnect from your wired ethernet connection in your VM while replaying the packets using tcpreplay.
 
-For reverse DNS lookup run the vi file(dig shell script):
+For reverse DNS lookup, run the vi file(dig shell script):
 
 vi <file_name>
