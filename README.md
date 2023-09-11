@@ -1,4 +1,5 @@
 # CN_Assignment_1
+Authors: Ashutosh Choudhary & Chaitanya Rao
 
 How to implement the repository in your system
 
@@ -22,7 +23,8 @@ Run .pcap file:
 
 sudo tcpreplay -i <network_interface> --mbps= <path_to_pcap_file>
 
-If possible, disconnect from your wired ethernet connection in your VM while replaying the packets using tcpreplay.
+
+If possible, disconnect your wired ethernet connection in your VM while replaying the packets using tcpreplay.
 
 For reverse DNS lookup, run the vi file(dig shell script):
 
